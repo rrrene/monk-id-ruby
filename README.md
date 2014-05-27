@@ -19,6 +19,7 @@ Overview
 Monk ID authentication and single sign-on works in the browser by integrating
 [Monk ID JS](https://github.com/MonkDev/monk-id-js). Only being able to check
 whether a user is signed in on the client-side is limiting, however, which is
+
 where this library is helpful. It takes a payload from the client-side
 JavaScript and decodes it for access in your Ruby code. There is no Monk ID API
 that can be accessed on the server-side, so this library depends on client-side
@@ -27,6 +28,7 @@ integration.
 ### Install
 
 Add the gem to your `Gemfile` if using [Bundler](http://bundler.io):
+
 
 ```ruby
 gem 'monk-id'
